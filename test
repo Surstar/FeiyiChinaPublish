@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF8-">
+    <title>竖向菜单示例</title>
+<style>
+    body {
+        font-family: "Microsoft YaHei", sans-serif;
+        background-color: #3a4f63; /* 背景色 */
+        color: #ffffff; /* 文字颜色 */
+    }
+
+    .vertical-menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-item {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .menu-item img {
+        width: 20px; /* 图标大小 */
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .menu-item span {
+        font-size: 16px;
+    }
+</style>
+
+</head>
+<body>
+<div class="vertical-menu">
+    <div class="menu-item">
+        <img src="path/to/icon1.png" alt="icon">
+        <span>国家级非物质文化遗产代表性项目名录</span>
+    </div>
+    <div class="menu-item">
+        <img src="path/to/icon2.png" alt="icon">
+        <span>国家级非物质文化遗产代表性传承人</span>
+    </div>
+    <div class="menu-item">
+        <img src="path/to/icon3.png" alt="icon">
+        <span>国家级文化生态保护区</span>
+    </div>
+    <div class="menu-item">
+        <img src="path/to/icon4.png" alt="icon">
+        <span>国家级非物质文化遗产生产性保护示范基地</span>
+    </div>
+    <div class="menu-item">
+        <img src="path/to/icon5.png" alt="icon">
+        <span>联合国教科文组织非物质文化遗产名录（名册）</span>
+    </div>
+    <div class="menu-item">
+        <img src="path/to/icon6.png" alt="icon">
+        <span>中国入选联合国教科文组织非物质文化遗产名录（名册）项目</span>
+    </div>
+</div>
+</body>
+</html>
